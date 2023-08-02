@@ -1,0 +1,22 @@
+Name,Quantity,Component
+"U4.3",1," Arduino Uno R3"
+"R1, R2",2,"220 Ω Resistor"
+"D1",1,"Red LED"
+"Dlarry",1,"Blue LED"
+"S1",1," Pushbutton"
+// C++ code
+//
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+
+  digitalWrite(LED_BUILTIN, HIGH);
+}
+
+void loop()
+{
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
