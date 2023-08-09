@@ -1,4 +1,4 @@
- Name,Quantity,Component
+Name,Quantity,Component
 "U4.3",1," Arduino Uno R3"
 "R1, R2",2,"220 Ω Resistor"
 "D1",1,"Red LED"
